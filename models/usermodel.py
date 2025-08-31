@@ -75,7 +75,7 @@ class UserLoginResponse(BaseModel):
     user_name: str
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBa2lsYW4iLCJleHAiOjE3MzEzNDMxMDV9.Y2jpZn2kV3JS137-rDlnKaAEkdZ4kfF3wqLzoWaziH4",
                 "user_name": "Vaishnavi",
