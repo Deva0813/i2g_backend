@@ -21,3 +21,10 @@ cd backend
 pip install -r requirements.txt
 uvicorn main:app --port 8000
 ```
+### 2. ENV Configurations
+```bash
+DATABASE_URL="MONGODB_URL"
+SECRET_KEY="i2global_assessment"
+ALGORITHM="HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES="30"
+```
